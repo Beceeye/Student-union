@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="EAU STUDENT GALKAIO community — activities, volunteering, and achievements." />
+    <meta name="theme-color" content="#0b3d91" />
+    <title>Community — EAU STUDENT GALKAIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Fraunces:ital,opsz,wght@0,9..144,500..700;1,9..144,500..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="community">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div data-include="header"></div>
+
+    <main id="main">
+      <div class="page-hero">
+        <div class="container">
+          <h1 data-i18n="community.page.title"></h1>
+          <p data-i18n="community.page.sub"></p>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="container two-col">
+          <div class="reveal">
+            <span class="section-eyebrow">Activities</span>
+            <h2 class="section-title" style="text-align: left; font-size: 1.65rem">Student life in motion</h2>
+            <ul class="check-list">
+              <li>Peer tutoring circles across IT, Medicine, and Engineering.</li>
+              <li>Inter-faculty debates and Model East Africa simulations.</li>
+              <li>Community clean-up drives and neighborhood literacy support.</li>
+              <li>Arts nights celebrating Somali poetry, music, and storytelling.</li>
+            </ul>
+            <h3 style="font-family: var(--font-display); margin-top: 2rem">Volunteer programs</h3>
+            <p style="color: var(--muted)">
+              Structured placements with local schools, health awareness booths, and digital skills clinics for youth.
+            </p>
+            <h3 style="font-family: var(--font-display); margin-top: 1.5rem">Campus events</h3>
+            <p style="color: var(--muted)">
+              Welcome week, career fairs, research days, and alumni mentorship breakfasts coordinated with faculties.
+            </p>
+            <h3 style="font-family: var(--font-display); margin-top: 1.5rem">Student achievements</h3>
+            <p style="color: var(--muted)">
+              National competition finalists, published student researchers, and service awards recognized each semester.
+            </p>
+          </div>
+          <div class="reveal">
+            <div data-event-calendar class="calendar-wrap">
+              <h3 style="margin: 0 0 1rem; font-family: var(--font-display)" data-i18n="calendar.title"></h3>
+              <div class="calendar-head">
+                <h3 data-cal-title style="margin: 0; font-size: 1.1rem"></h3>
+                <div class="cal-nav" aria-hidden="true">
+                  <button type="button" tabindex="-1">‹</button>
+                  <button type="button" tabindex="-1">›</button>
+                </div>
+              </div>
+              <div class="cal-grid" data-cal-grid></div>
+              <div class="cal-events-list" data-cal-events></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="background: var(--surface); border-block: 1px solid var(--line)">
+        <div class="container">
+          <header class="section-header reveal">
+            <h2 class="section-title" data-i18n="community.gal.title"></h2>
+          </header>
+          <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=600&q=80" alt="" width="600" height="600" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&q=80" alt="" width="600" height="600" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80" alt="" width="600" height="600" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&q=80" alt="" width="600" height="600" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&q=80" alt="" width="600" height="600" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80" alt="" width="600" height="600" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <header class="section-header reveal">
+            <h2 class="section-title" data-i18n="community.test.title"></h2>
+          </header>
+          <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))">
+            <blockquote class="testimonial reveal">
+              <p>
+                The union gave our cohort a real voice in timetable changes and lab access. Professional, fast, and respectful.
+              </p>
+              <cite>— Hibaaq M. · Civil Engineering</cite>
+            </blockquote>
+            <blockquote class="testimonial reveal">
+              <p>
+                Volunteering with the literacy program changed how I see leadership — service first, titles second.
+              </p>
+              <cite>— Libaan A. · Social Science</cite>
+            </blockquote>
+            <blockquote class="testimonial reveal">
+              <p>
+                From club funding questions to exam stress workshops, the executive team actually shows up.
+              </p>
+              <cite>— Sagal K. · Health Science</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-include="footer"></div>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>

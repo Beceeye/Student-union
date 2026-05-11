@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="EAU STUDENT GALKAIO — relations with administration and external partners." />
+    <meta name="theme-color" content="#0b3d91" />
+    <title>Relations — EAU STUDENT GALKAIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Fraunces:ital,opsz,wght@0,9..144,500..700;1,9..144,500..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="relations">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div data-include="header"></div>
+
+    <main id="main">
+      <div class="page-hero">
+        <div class="container">
+          <h1 data-i18n="relations.page.title"></h1>
+          <p data-i18n="relations.page.sub"></p>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="container relations-split">
+          <div class="reveal">
+            <h2 style="font-family: var(--font-display); margin-top: 0">Student union &amp; university administration</h2>
+            <p style="color: var(--muted)">
+              Standing committees meet with the Office of the Dean of Students, registrars, and faculty deans to align calendars,
+              facilities, and student welfare policies. Minutes are summarized for the student body each month.
+            </p>
+            <h2 style="font-family: var(--font-display); margin-top: 2rem">External partnerships</h2>
+            <p style="color: var(--muted)">
+              NGOs, employers, and alumni networks co-design internships, guest lectures, and scholarship pipelines. We prioritize
+              ethical agreements that protect student time and academic integrity.
+            </p>
+            <h2 style="font-family: var(--font-display); margin-top: 2rem" data-i18n="relations.comm.title"></h2>
+            <p style="color: var(--muted)" data-i18n="relations.comm.body"></p>
+          </div>
+          <div class="form-card reveal">
+            <h2 style="margin-top: 0; font-family: var(--font-display)" data-i18n="relations.form.title"></h2>
+            <p style="color: var(--muted); margin-top: 0" data-i18n="relations.form.sub"></p>
+            <form data-demo-form>
+              <div class="form-group">
+                <label for="org">Organization</label>
+                <input id="org" name="org" type="text" autocomplete="organization" required />
+              </div>
+              <div class="form-group">
+                <label for="contact-name">Contact name</label>
+                <input id="contact-name" name="name" type="text" autocomplete="name" required />
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input id="contact-email" name="email" type="email" autocomplete="email" required />
+              </div>
+              <div class="form-group">
+                <label for="collab-type">Collaboration type</label>
+                <select id="collab-type" name="type">
+                  <option>Guest lecture / workshop</option>
+                  <option>Scholarship or grant</option>
+                  <option>Volunteering / CSR</option>
+                  <option>Research partnership</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="proposal">Proposal summary</label>
+                <textarea id="proposal" name="proposal" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%">Submit inquiry</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="background: var(--surface); border-top: 1px solid var(--line)">
+        <div class="container">
+          <header class="section-header reveal">
+            <h2 class="section-title">Leadership liaison desk</h2>
+            <p class="section-desc">Officers who coordinate external relations and internal communications.</p>
+          </header>
+          <div class="lead-strip">
+            <div class="lead-mini reveal">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80" alt="" width="200" height="200" loading="lazy" />
+              <strong>External relations</strong>
+              <span>Partnerships &amp; MOUs</span>
+            </div>
+            <div class="lead-mini reveal">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80" alt="" width="200" height="200" loading="lazy" />
+              <strong>Admin liaison</strong>
+              <span>Policy &amp; welfare</span>
+            </div>
+            <div class="lead-mini reveal">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80" alt="" width="200" height="200" loading="lazy" />
+              <strong>Media &amp; comms</strong>
+              <span>Press &amp; campaigns</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-include="footer"></div>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>

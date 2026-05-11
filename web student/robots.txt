@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://example.org/eau-student-galkaio/sitemap.xml
